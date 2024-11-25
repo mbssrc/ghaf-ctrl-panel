@@ -34,7 +34,7 @@ use clap::Parser;
 use gtk::prelude::*;
 use gtk::{gio, glib};
 
-const ADMIN_SERVICE_ADDR: &str = "192.168.101.10";
+const ADMIN_SERVICE_ADDR: &str = "192.168.100.10";
 const ADMIN_SERVICE_PORT: u16 = 9001;
 
 #[derive(Parser, Debug)]
